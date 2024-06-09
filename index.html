@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>Homework 6</title>
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-       <link rel="stylesheet" href="./css/style.css"/>
-       <link rel="stylesheet" href="./css/mobile.css"/>
-       <link rel="stylesheet" href="./css/tablet.css"/>
-       
-       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+   <link rel="stylesheet" href="./css/style.css"/>
+       <link rel="stylesheet" href="./css/mobile.css"/>
+       <link rel="stylesheet" href="./css/tablet.css"/>
+       <title>Homework 6</title>
+       
   </head> 
 
   <body>
@@ -62,11 +63,13 @@
               <use href="./images/icons.svg#icon-antenna-1"></use>
             </svg> 
             </div>
+            <div class="section-two-text">
             <h3 class="header-third">Strategy</h3>
             <p class="section-two-paragraph">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
+            </div>
           </li>
           <li class="section-two-li">
             <div class="section-two-div-svg">
@@ -74,11 +77,13 @@
               <use href="./images/icons.svg#icon-clock-1"></use>
             </svg> 
             </div>
+            <div class="section-two-text">
             <h3 class="header-third">Punctuality</h3>
             <p class="section-two-paragraph">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
+            </div>
           </li>
           <li class="section-two-li">
             <div class="section-two-div-svg">
@@ -86,11 +91,13 @@
               <use href="./images/icons.svg#icon-antenna-1"></use>
             </svg> 
             </div>
+            <div class="section-two-text">
             <h3 class="header-third">Diligence</h3>
             <p class="section-two-paragraph">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
+            </div>
           </li>
           <li class="section-two-li">
             <div class="section-two-div-svg">
@@ -98,11 +105,13 @@
               <use href="./images/icons.svg#icon-astronaut-1"></use>
             </svg> 
             </div>
+            <div class="section-two-text">
             <h3 class="header-third">Technologies</h3>
             <p class="section-two-paragraph">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
+            </div>
           </li>
         </ul>
     
@@ -111,7 +120,7 @@
     
 
       <section class="ourteam">
-        <div class="container">
+        <div class="container our-team-container">
         <h2 class="header-section-three">Our Team</h2>
         <ul class="ourteamlist">
           <li class="team-members">
@@ -295,7 +304,7 @@
       </section> 
       
       <section class="ourportfolio">
-        <div class="container">
+        <div class="container our-portfolio-container">
         <h2 class="header-ourportfolio">Our Portfolio</h2>
      
     <ul class="our-portfolio-ul">
@@ -404,7 +413,8 @@
 
     
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
+        <div class="footer-text-social">
         <div class="footer-div-one">
      <a href="./index.html" class="logotype">Web<span class="lastsixletters">Studio</span></a>
      <p class="footerp">Increase the flow of customers and sales for your business with digital
@@ -445,6 +455,7 @@
 
 </ul>
       </div>
+      </div>
 
       <div class="subscription-form-footer">
         <p class="subscription-p">Subscribe</p>
@@ -464,7 +475,7 @@
     </footer>
 
  
-    <div class="modal-window-container">
+    <div class="modal-window-container is-open">
       <div class="modal-window-div">
       <button class="modal-window-cls-btn" type="button">
       <svg class="close-btn" width="8" height="8"><use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
@@ -529,10 +540,71 @@
     </div>
     </div>
     
+    <div class="mobile-menu-container is-open" id="mobile-hamburger-menu">
+      <button class="hamburger-menu-button">
+          <svg class="hamburger-menu-icon-exit" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+      </button>
 
+      <div class="hamburger-menu-li-container">
+          <nav class="hamburger-menu-nav">
+              <ul class="hamburger-menu-nav-ul">
+                  <li class="hamburger-menu-nav-li">
+                      <a class="hamburger-menu-link link-studio" href="">Studio</a>
+                  </li>
+                  <li class="hamburger-menu-nav-li">
+                      <a class="hamburger-menu-link" href="">Portfolio</a>
+                  </li>
+                  <li class="hamburger-menu-nav-li">
+                      <a class="hamburger-menu-link" href="">Contacts</a>
+                  </li>
+              </ul>
+          </nav>
 
+          <address class="hamburger-menu-address">
+              <ul class="hamburger-menu-address-ul">
+                  <li class="hamburger-menu-address-li">
+                      <a class="hamburger-menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                  </li>
+                  <li class="hamburger-menu-address-li">  
+                      <a class="hamburger-menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  </li>
+              </ul>
+          </address>
 
-    
+          <ul class="hamburger-menu-social-media-ul">
+              <li class="social-media-button-li">
+                  <a class="social-media-button hamburger-menu-social-media-button" href="">
+                      <svg class="social-media-svg" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-media-button-li">
+                  <a class="social-media-button hamburger-menu-social-media-button" href="">
+                      <svg class="social-media-svg" width="24" height="24">
+                          <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-media-button-li">
+                  <a class="social-media-button hamburger-menu-social-media-button" href="">
+                      <svg class="social-media-svg" width="24" height="24">
+                          <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                  </a>
+              </li>
+              <li class="social-media-button-li">
+                  <a class="social-media-button hamburger-menu-social-media-button" href="">
+                      <svg class="social-media-svg" width="24" height="24">
+                          <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>    
 
   </body>
 </html>
