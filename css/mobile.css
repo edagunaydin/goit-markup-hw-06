@@ -55,15 +55,14 @@ main .ourteamlist {
   
   }
 
-main .our-portfolio-container {
+main .container .our-portfolio-container  {
   display: flex;
   flex-direction: column; 
-  
   width: 100%;
 }
 
 
-.ourportfolio .header-ourportfolio {
+main .container .ourportfolio .header-ourportfolio {
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -72,19 +71,13 @@ width: 100%;
 
 }
 
-main .our-portfolio-ul {
+main .container .our-portfolio-ul {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
-  border: 0;
   width: 100%;
-  align-items: center;
+ 
 }
-
-
-
 
 footer .footer-container {
   padding: 96px 16px;

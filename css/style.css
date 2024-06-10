@@ -518,7 +518,6 @@ main .our-portfolio-ul {
   display: flex;
   flex-direction: row;
   gap: 8px;
-   
   justify-content:space-around;
   align-items: center;
   margin-top: 72px;
