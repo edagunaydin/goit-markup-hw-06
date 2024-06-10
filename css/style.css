@@ -370,127 +370,6 @@ justify-content: center;
   text-align: center;
 }
 
-.ourportfolio {
-  display: flex;
-  flex-direction: column;
-  padding: 120px 0px;
-  margin: 0 auto;
-  gap: 8px;
-  margin-bottom: 72px;
-
-}
-
-
-.ourportfolio img {
-  display: block;
-  width: 100%;
-}
-
-.ourportfolio .our-portfolio-ul {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  width: 1128px;  
-  justify-content:space-around;
-  align-items: center;
-  margin-top: 72px;
-  margin-right: 24px;
-  margin-bottom: 0;
-  row-gap: 48px;
-  column-gap: 24px;
-  flex-wrap: wrap;
-}
-
-.ourportfolio .our-portfolio-ul:first-child {
-  width: calc((100% - 48px) / 3);
-}
-
-
-.ourportfolio .our-portfolio-ul:last-child {
-  margin-right: 0px;
-}
-
-.ourportfolio .our-portfolio-card {
-width: 360px;
-height: 120px;
-gap: 8px;
-border: 1px solid #e7e9fc;
-padding: 32px 16px; 
-border-top: none;
-}
-
-.our-portfolio-image {
-  display:flex;
-  flex-direction: row;
-}
-
-.ourportfolio .header-ourportfolio {
-display: flex;
-flex-direction: row;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-text-transform: capitalize;
-letter-spacing: 0.02em;
-color: #2e2f42;
-margin-bottom: 72px;
-margin-left: 455px;
-justify-content:center;
-width: 219px;
-height: 40px;
-text-align: center;
-flex-wrap: nowrap;
-
-}
-
-.ourportfolio .our-portfolio-li {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-
-.ourportfolio .our-portfolio-li:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.our-portfolio-img-text {
-  position: relative;
-  overflow: hidden;
-}
-
-.our-portfolio-text {
-  position: absolute;
-  top: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:#f4f4fd;
-  padding: 40px 32px;
-  background-color: #4d5ae5;
-  height: 100%;
-  width: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-portfolio-li:hover .our-portfolio-text {
-  transform: translateY(0);
-}  
-
-
-
-.ourportfolio .section-two-paragraph {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-
-}
-
-.ourportfolio .header-third {
-  margin-bottom: 8px;
-}
 
 footer {
 display: flex;
@@ -618,6 +497,128 @@ footer .logotype {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+main .ourportfolio {
+  padding: 120px 0px;
+  margin: 0 auto;
+  gap: 8px;
+  background-color:aqua;
+
+}
+
+
+.ourportfolio img {
+  display: block;
+  width: 100%;
+}
+
+main .our-portfolio-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+   
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 72px;
+  margin-right: 24px;
+  margin-bottom: 0;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+
+}
+
+.ourportfolio .our-portfolio-ul:first-child {
+  width: calc((100% - 48px) / 3);
+}
+
+
+.ourportfolio .our-portfolio-ul:last-child {
+  margin-right: 0px;
+}
+
+.ourportfolio .our-portfolio-card {
+width: 360px;
+height: 120px;
+gap: 8px;
+border: 1px solid #e7e9fc;
+padding: 32px 16px; 
+border-top: none;
+}
+
+.our-portfolio-image {
+  display:flex;
+  flex-direction: row;
+}
+
+.ourportfolio .header-ourportfolio {
+display: flex;
+flex-direction: row;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-transform: capitalize;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 72px;
+margin-left: 455px;
+justify-content:center;
+width: 219px;
+height: 40px;
+text-align: center;
+flex-wrap: nowrap;
+
+}
+
+.ourportfolio .our-portfolio-li {
+  width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+.ourportfolio .our-portfolio-li:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.our-portfolio-img-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.our-portfolio-text {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-portfolio-li:hover .our-portfolio-text {
+  transform: translateY(0);
+}  
+
+.ourportfolio .section-two-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+.ourportfolio .header-third {
+  margin-bottom: 8px;
+}
+
 
 footer .footer-social-button {
   display: flex;
