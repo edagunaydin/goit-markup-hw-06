@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="./css/mobile.css"/>
+    <link rel="stylesheet" href="./css/tablet.css"/>
         
   </head> 
 
   <body>
 <!--HEADER-->
       <header class="class-header"> 
-        <div class="container class-header-container">
+        <div class="class-header-container container">
         <nav class="header-nav">
               <a href="./index.html" class="logotype">Web<span class="lastsixletters">Studio</span></a>
               
@@ -36,13 +37,79 @@
           <li class="a-two"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+        </div>
       <button type="button" class="mobile-hamburger-button">
 <svg width="30" height="30" class="hamburger">
   <use href="./images/icons.svg#icon-Group"></use>
   </svg>
       </button>
       
-        </div>
+
+        <div class="mobile-menu-container is-open" id="mobile-hamburger-menu">
+          <button class="hamburger-menu-button">
+              <svg class="hamburger-menu-icon-exit" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+              </svg>
+          </button>
+    
+          <div class="hamburger-menu-li-container">
+              <nav class="hamburger-menu-nav">
+                  <ul class="hamburger-menu-nav-ul">
+                      <li class="hamburger-menu-nav-li">
+                          <a class="hamburger-menu-link link-studio" href="">Studio</a>
+                      </li>
+                      <li class="hamburger-menu-nav-li">
+                          <a class="hamburger-menu-link" href="">Portfolio</a>
+                      </li>
+                      <li class="hamburger-menu-nav-li">
+                          <a class="hamburger-menu-link" href="">Contacts</a>
+                      </li>
+                  </ul>
+              </nav>
+    
+              <address class="hamburger-menu-address">
+                  <ul class="hamburger-menu-address-ul">
+                      <li class="hamburger-menu-address-li">
+                          <a class="hamburger-menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                      </li>
+                      <li class="hamburger-menu-address-li">  
+                          <a class="hamburger-menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                      </li>
+                  </ul>
+              </address>
+    
+              <ul class="hamburger-menu-social-media-ul">
+                  <li class="social-media-button-li">
+                      <a class="social-media-button hamburger-menu-social-media-button" href="">
+                          <svg class="social-media-svg" width="24" height="24">
+                              <use href="./images/icons.svg#icon-instagram-2"></use>
+                          </svg>
+                      </a>
+                  </li>
+                  <li class="social-media-button-li">
+                      <a class="social-media-button hamburger-menu-social-media-button" href="">
+                          <svg class="social-media-svg" width="24" height="24">
+                              <use href="./images/icons.svg#icon-twitter-1"></use>
+                          </svg>
+                      </a>
+                  </li>
+                  <li class="social-media-button-li">
+                      <a class="social-media-button hamburger-menu-social-media-button" href="">
+                          <svg class="social-media-svg" width="24" height="24">
+                              <use href="./images/icons.svg#icon-facebook-1"></use>
+                          </svg>
+                      </a>
+                  </li>
+                  <li class="social-media-button-li">
+                      <a class="social-media-button hamburger-menu-social-media-button" href="">
+                          <svg class="social-media-svg" width="24" height="24">
+                              <use href="./images/icons.svg#icon-linkedin-1"></use>
+                          </svg>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>    
     </header>
     
     <main class="class-main">
@@ -480,7 +547,7 @@
  
     <div class="modal-window-container is-open">
       <div class="modal-window-div">
-      <button class="modal-window-cls-btn" type="button">
+          <button class="modal-window-cls-btn" type="button">
       <svg class="close-btn" width="8" height="8"><use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
       </svg>
       </button>
@@ -528,9 +595,11 @@
        
         <label class="modal-checkbox-label" for="user-privacy">
           <span class="modal-checkbox-span"><svg class="modal-checkbox-svg" width="10" height="8"><use href="./images/icons.svg#icon-Checkbox"></use></svg>  
-          </span>    
+          </span> 
+          <div class="modal-form-terms-text">   
           I accept the terms and conditions of the 
           <a class="modal-privacy-link" href="#">Privacy Policy</a>
+          </div>
 
         </label>
 
@@ -541,73 +610,9 @@
 
       </form>
     </div>
-    </div>
-    
-    <div class="mobile-menu-container is-open" id="mobile-hamburger-menu">
-      <button class="hamburger-menu-button">
-          <svg class="hamburger-menu-icon-exit" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-      </button>
-
-      <div class="hamburger-menu-li-container">
-          <nav class="hamburger-menu-nav">
-              <ul class="hamburger-menu-nav-ul">
-                  <li class="hamburger-menu-nav-li">
-                      <a class="hamburger-menu-link link-studio" href="">Studio</a>
-                  </li>
-                  <li class="hamburger-menu-nav-li">
-                      <a class="hamburger-menu-link" href="">Portfolio</a>
-                  </li>
-                  <li class="hamburger-menu-nav-li">
-                      <a class="hamburger-menu-link" href="">Contacts</a>
-                  </li>
-              </ul>
-          </nav>
-
-          <address class="hamburger-menu-address">
-              <ul class="hamburger-menu-address-ul">
-                  <li class="hamburger-menu-address-li">
-                      <a class="hamburger-menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                  </li>
-                  <li class="hamburger-menu-address-li">  
-                      <a class="hamburger-menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                  </li>
-              </ul>
-          </address>
-
-          <ul class="hamburger-menu-social-media-ul">
-              <li class="social-media-button-li">
-                  <a class="social-media-button hamburger-menu-social-media-button" href="">
-                      <svg class="social-media-svg" width="24" height="24">
-                          <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                  </a>
-              </li>
-              <li class="social-media-button-li">
-                  <a class="social-media-button hamburger-menu-social-media-button" href="">
-                      <svg class="social-media-svg" width="24" height="24">
-                          <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                  </a>
-              </li>
-              <li class="social-media-button-li">
-                  <a class="social-media-button hamburger-menu-social-media-button" href="">
-                      <svg class="social-media-svg" width="24" height="24">
-                          <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                  </a>
-              </li>
-              <li class="social-media-button-li">
-                  <a class="social-media-button hamburger-menu-social-media-button" href="">
-                      <svg class="social-media-svg" width="24" height="24">
-                          <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                  </a>
-              </li>
-          </ul>
       </div>
-  </div>    
+   
+   
 
   </body>
 </html>
