@@ -55,10 +55,17 @@ main .ourteamlist {
   
   }
 
+main .ourportfolio {
+  width: 100%;
+  flex-direction: column;
+}
+
 main .container .our-portfolio-container  {
   display: flex;
   flex-direction: column; 
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 
